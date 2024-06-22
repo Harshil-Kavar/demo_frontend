@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #efefef;
+}
+.bg-main {
+  background-color: #fe6681;
+}
+.color-main {
+  color: #fe6681 !important;
+}
+.bg-praimary {
+  background-color: #efefef;
+}
+.border-redius-20 {
+  border-radius: 20px;
+}
+.border-redius-40 {
+  border-radius: 40px;
+}
+.w-90{
+  width: 90%;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.icon-size {
+  font-size: 25px;
+}
+.password_toggle_icon {
+  position: absolute;
+  font-size: 21px;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.login_form {
+  min-width: 380px;
+}
+.register_form {
+  min-width: 380px;
+  margin-right: -20px;
+}
+.check-icon {
+  font-size: 25px;
+}
+.row {
+  --bs-gutter-x: 0 !important;
+}
+.btn:hover{
+  background-color: #fe6681 !important;
+}
+
+@media (max-width:800px) {
+  .register_form {
+    min-width: 380px;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+  
+}
